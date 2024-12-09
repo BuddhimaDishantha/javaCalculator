@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="350.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.democalulator.CalController">
+   <children>
+      <Button layoutY="367.0" mnemonicParsing="false" onAction="#btnDigitOnAction" prefHeight="47.0" prefWidth="182.0" text="0">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="184.0" layoutY="367.0" mnemonicParsing="false" onAction="#btnDecimalOnAction" prefHeight="47.0" prefWidth="92.0" text=".">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="275.0" layoutY="367.0" mnemonicParsing="false" onAction="#btnresultOnAction" prefHeight="47.0" prefWidth="92.0" text="=">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutY="319.0" mnemonicParsing="false" onAction="#btnDigitOnAction" prefHeight="47.0" prefWidth="92.0" text="1">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="92.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnDigitOnAction" prefHeight="47.0" prefWidth="92.0" text="2">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="184.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnDigitOnAction" prefHeight="47.0" prefWidth="92.0" text="3">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="276.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnGenaralOnAction" prefHeight="47.0" prefWidth="92.0" text="+">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutY="271.0" mnemonicParsing="false" onAction="#btnDigitOnAction" prefHeight="47.0" prefWidth="92.0" text="4">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="92.0" layoutY="271.0" mnemonicParsing="false" onAction="#btnDigitOnAction" prefHeight="47.0" prefWidth="92.0" text="5">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="184.0" layoutY="271.0" mnemonicParsing="false" onAction="#btnDigitOnAction" prefHeight="47.0" prefWidth="92.0" text="6">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="276.0" layoutY="271.0" mnemonicParsing="false" onAction="#btnGenaralOnAction" prefHeight="47.0" prefWidth="92.0" text="-">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutY="175.0" mnemonicParsing="false" onAction="#btnGenaralOnAction" prefHeight="47.0" prefWidth="92.0" text="AC">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="92.0" layoutY="175.0" mnemonicParsing="false" onAction="#btnGenaralOnAction" prefHeight="47.0" prefWidth="92.0" text="+/-">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="184.0" layoutY="175.0" mnemonicParsing="false" onAction="#btnGenaralOnAction" prefHeight="47.0" prefWidth="92.0" text="\%">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="276.0" layoutY="175.0" mnemonicParsing="false" onAction="#btnGenaralOnAction" prefHeight="47.0" prefWidth="92.0" text="÷">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutY="223.0" mnemonicParsing="false" onAction="#btnDigitOnAction" prefHeight="47.0" prefWidth="92.0" text="7">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="92.0" layoutY="223.0" mnemonicParsing="false" onAction="#btnDigitOnAction" prefHeight="47.0" prefWidth="92.0" text="8">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="184.0" layoutY="223.0" mnemonicParsing="false" onAction="#btnDigitOnAction" prefHeight="47.0" prefWidth="92.0" text="9">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="276.0" layoutY="223.0" mnemonicParsing="false" onAction="#btnGenaralOnAction" prefHeight="47.0" prefWidth="92.0" text="×">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="txtDisplay" alignment="CENTER_RIGHT" layoutY="79.0" prefHeight="97.0" prefWidth="368.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
